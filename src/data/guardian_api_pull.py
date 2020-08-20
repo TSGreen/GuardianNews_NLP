@@ -1,3 +1,12 @@
+"""
+Accesses the Guardian API and retrieves the article data.
+
+I have made some very minor modifications, but full credit for this 
+script belongs to dannguyen:
+https://gist.github.com/dannguyen/c9cb220093ee4c12b840
+
+""""
+
 import json
 import requests
 from os import makedirs
